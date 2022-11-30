@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">BeeFit</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="shortcut_short_main">Home page</string>
+    <string name="shortcut_short_steps">Steps page</string>
+    <string name="shortcut_short_pet">Pet page</string>
+    <string name="title_activity_app_setup" translatable="false">AppSetupActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+    <string name="user_name">Name</string>
+    <string name="pet_name_prompt" translatable="false">Pet name</string>
+    <string name="step_goal">Step Goal</string>
+    <string name="setup_user_details_title">Your Details</string>
+    <string name="setup_pet_details_title">Your Pet</string>
+    <string name="navigation_finish">FINISH</string>
+    <string name="navigation_next">NEXT</string>
+    <string name="pet_name">Charlie</string>
+    <string name="Happiness">Happiness</string>
+    <string name="Health">Health</string>
+    <string name="Hunger">Hunger</string>
+    <string name="stepGoalNotifTitle">Step Goal Reached!</string>
+    <string name="stepGoalNotifDescription">You reached your goal of %s steps</string>
+    <string name="stepProgress">Step progress: %s</string>
+    <string name="stepMessageGoal">Hello friend, guess what? I made my step goal \\uD83D\\uDE0D \\uD83D\\uDE0D, I did %s/%s steps</string>
+    <string name="stepMessage">Hello friend, guess what? I am making progress towards my step goal, I have done %s/%s steps</string>
+    <string name="letsbegin">Let\'s begin!</string>
+    <string name="pickYourPet">Pick your pet</string>
+    <string name="yourDetails">Your Details</string>
+    <string name="enterName">Enter name …</string>
+    <string name="dateOfBirth">Date of birth</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pet_name">charlie</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="Happiness" translatable="false">Felicidad</string>
+    <string name="Health" translatable="false">Salud</string>
+    <string name="Hunger" translatable="false">Hambre</string>
+    <string name="navigation_finish" translatable="false">" TERMINAR"</string>
+    <string name="navigation_next" translatable="false">SIGUIENTE</string>
+    <string name="setup_pet_details_title" translatable="false">Tu mascota</string>
+    <string name="setup_user_details_title" translatable="false">Tus detalles</string>
+    <string name="shortcut_short_main" translatable="false">Página de inicio</string>
+    <string name="shortcut_short_pet" translatable="false">Página de mascotas</string>
+    <string name="shortcut_short_steps" translatable="false">" Página de pasos"</string>
+    <string name="step_goal">Paso meta</string>
+    <string name="stepGoalNotifDescription" translatable="false">" Alcanzó su meta de 5 pasos."</string>
+    <string name="stepGoalNotifTitle" translatable="false">" Paso meta alcanzada!"</string>
+    <string name="stepProgress" translatable="false">" Paso progreso: %s"</string>
+    <string name="user_name" translatable="false">" Nombre"</string>
+    <string name="stepMessageGoal">Hola amigo adivina que? Hice mi paso objetivo, hice %s/%s pasos</string>
+    <string name="stepMessage">Hola amigo adivina que? Estoy avanzando hacia mi meta de pasos, he hecho %s/%s pasos</string>
+    <string name="letsbegin">Vamos a empezar</string>
+    <string name="pickYourPet">Escoge tu mascota</string>
+    <string name="yourDetails">Tus detalles</string>
+    <string name="enterName">Ingrese su nombre …</string>
+    <string name="dateOfBirth">Fecha de nacimiento</string>
+</resources>

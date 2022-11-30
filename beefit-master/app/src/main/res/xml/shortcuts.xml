@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+            android:enabled="true"
+            android:shortcutId="shortcut_home_page"
+            android:shortcutShortLabel="@string/shortcut_short_main"
+            android:icon="@drawable/ic_pets_black_24dp">
+
+        <intent
+                android:action="android.intent.action.LAUNCH_HOME_PAGE"
+                android:targetPackage="com.pandaproductions.beefit"
+                android:targetClass="com.pandaproductions.beefit.MainActivity"/>
+    </shortcut>
+
+    <shortcut
+            android:enabled="true"
+            android:shortcutId="shortcut_pet_page"
+            android:shortcutShortLabel="@string/shortcut_short_pet"
+            android:icon="@drawable/ic_pets_black_24dp">
+
+        <intent
+                android:action="android.intent.action.LAUNCH_PET_PAGE"
+                android:targetClass="com.pandaproductions.beefit.MainActivity"
+                android:targetPackage="com.pandaproductions.beefit"/>
+    </shortcut>
+
+    <shortcut
+            android:enabled="true"
+            android:shortcutId="shortcut_steps_page"
+            android:shortcutShortLabel="@string/shortcut_short_steps"
+            android:icon="@drawable/ic_pets_black_24dp">
+
+        <intent
+                android:action="android.intent.action.LAUNCH_STEPS_PAGE"
+                android:targetClass="com.pandaproductions.beefit.MainActivity"
+                android:targetPackage="com.pandaproductions.beefit"/>
+    </shortcut>
+
+</shortcuts>

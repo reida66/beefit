@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/title"
+            android:layout_height="wrap_content" android:text="@string/yourDetails" android:gravity="center"
+            android:paddingTop="5dp" android:paddingBottom="5dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"/>
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:id="@+id/details_table"
+            android:layout_above="@id/next_button"
+            android:layout_below="@id/title" android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp" android:layout_marginEnd="20dp" android:layout_marginBottom="60dp">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="61dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_name"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/user_name"
+                    android:inputType="textPersonName"
+                    android:text="@string/enterName"
+                    android:ems="10"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" android:layout_marginTop="20dp">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:text="@string/dateOfBirth"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:id="@+id/birth_date"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"/>
+        </TableRow>
+        <TableRow
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:text="@string/step_goal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/step_goal_num"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" android:layout_marginTop="20dp">
+            <SeekBar
+                    style="@style/Widget.AppCompat.SeekBar.Discrete"
+                    android:layout_span="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:max="10"
+                    android:progress="6"
+                    android:id="@+id/step_goal"/>
+        </TableRow>
+    </TableLayout>
+    <Button
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/next_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/navigation_next"
+            android:layout_gravity="end|center"
+    />
+
+</RelativeLayout>

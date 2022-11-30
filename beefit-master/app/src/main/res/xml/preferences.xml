@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory>
+        <ListPreference
+                app:key="fairyBreadPreference"
+                app:title="Fairy bread preference"
+                app:summary="Pick your favourite fairy bread colouring"
+                app:entries="@array/fairyBreadPreferences"
+                app:entryValues="@array/fairyBreadPreferencesData"/>
+        <SwitchPreferenceCompat
+                app:key="notificationPreference"
+                app:defaultValue="true"
+                app:summary="Receive notifications when you reach your step goal"
+                app:title="Step goal notifications"/>
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>
